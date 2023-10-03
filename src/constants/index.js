@@ -24,8 +24,12 @@ import {
   universityoftexas,
   universityofmichigan,
   wordle,
-  jobit,
-  tripguide,
+  portfolio,
+  bjwebapp,
+  dow,
+  crab,
+  sports,
+  panacea
 } from "../assets";
 
 export const navLinks = [
@@ -235,10 +239,10 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+      "Rex's good charm will carry him far. Rex knows exactly what needs to be done, he just does it",
+    name: "Yvone Adams",
+    designation: "Director of DEI",
+    company: "St. Stephen's Episcopal School",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
@@ -261,6 +265,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Better Investments",
+    description:
+      "This React web app empowers clients to align their financial portfolios with their personal values and passions, fostering a deeper connection between their investments and their principles. Through intuitive user interfaces and comprehensive tools, clients can make informed decisions that reflect not only financial goals but also their commitment to social and environmental causes.",
+    tags: [
+      {
+        name: "react",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bjwebapp,
+    source_code_link: "https://github.com/R3xRamza/BJWebApp",
+  },
+  {
     name: "Wordle Bot",
     description:
       "Python algorithm for Wordle that strategically assigns a value to each letter, considering its information-revealing potential. The algorithm then employs various functions to determine the next guessable word with the highest value. This object-oriented project enhanced my problem-solving skills through intricate Python logic.",
@@ -272,69 +297,95 @@ const projects = [
 
     ],
     image: wordle,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/R3xRamza/WordleBot",
   },
   {
-    name: "Job IT",
+    name: "Project Management",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "This Android app offers a seamless experience for teams to collaborate effectively by providing real-time communication tools and a user-friendly interface for uploading and sharing project files. Its intuitive design simplifies project management, enhancing productivity and fostering efficient teamwork.",
+    tags: [
+      {
+        name: "java",
+        color: "brown-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "purple-text-gradient",
+      }
+    ],
+    image: dow,
+    source_code_link: "https://github.com/R3xRamza/DCAndroidApp",
+  },
+  {
+    name: "Hexapod Robot",
+    description:
+      "3D printed hexapod robot created with Fusion 360 and operates using a Raspberry Pi with a set of servo motors, enabling it to move and navigate its surroundings. Design was perfected through using the design thinking process and learning from a lot of iterations and failures.",
+    tags: [
+      {
+        name: "fusion360",
+        color: "orange-text-gradient",
+      },
+
+    ],
+    image: crab,
+    source_code_link: "https://a360.co/3ZEotyw",
+  },
+  {
+    name: "This Website!",
+    description:
+      "React web app for showing coding experience and projects to potential employers or educators. The web app was built using React, React 3D, Tailwind CSS, Figma, HTML, and Javascript experience.",
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "orange-text-gradient",
       },
       {
-        name: "restapi",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
-      },
+      }
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: portfolio,
+    source_code_link: "https://github.com/R3xRamza/portfoliowebapp",
   },
   {
-    name: "Trip Guide",
+    name: "Sports Analyst",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Sports analysis software to help with fantasy football and basketball. It uses BeautifulSoup to scrape data from the ESPN website, and it organizes the data using Pandas. This project incorporates the basics of data analysis and will be built on more in the future.",
     tags: [
       {
-        name: "nextjs",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },{
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
+        name: "pandas",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "beautifulsoup",
+        color: "blue-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: sports,
+    source_code_link: "https://github.com/R3xRamza/SportsAnalysis",
+  },
+  {
+    name: "Water Map",
+    description:
+      "iOS app built for a water testing company, Panacea. The app is an interactive map that provides data from water tests on different water sources. Helps underprivileged communities identify which bodies of water are safe or not safe.",
+    tags: [
+      {
+        name: "swift",
+        color: "orange-text-gradient",
+      },
+
+    ],
+    image: panacea,
+    source_code_link: "https://github.com/R3xRamza/PanaceaApp",
   },
 ];
 

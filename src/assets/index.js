@@ -31,8 +31,12 @@ import universityoftexas from "./company/universityoftexas.png";
 import universityofmichigan from "./company/universityofmichigan.png";
 
 import wordle from "./wordle.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import bjwebapp from "./bjwebapp.png";
+import dow from "./dow.png";
+import crab from "./crab.png";
+import sports from "./sports.png";
+import panacea from "./panacea.png";
 
 export {
   logo,
@@ -64,6 +68,10 @@ export {
   universityoftexas,
   universityofmichigan,
   wordle,
-  jobit,
-  tripguide,
+  portfolio,
+  bjwebapp,
+  dow,
+  crab,
+  sports,
+  panacea
 };
