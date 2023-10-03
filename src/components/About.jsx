@@ -50,7 +50,7 @@ const About = () => {
         I am a computer scientist, data scientist, tech enthusiast, and leader. 
         I've honed my coding skills through hands-on experience, and my commitment to learning and problem-solving is evident not only in my technical endeavors 
         but also in my willingness to adapt and thrive in various environments. I have collaborated with 
-        industry professionals at Dow Chemical and KOM advisors, and I've made real world impacts through 
+        industry professionals at Dow Chemical and KOM Advisors, and I've made real world impacts through 
         founding TechTeensATX and teaching children to code.
       </motion.p>
 

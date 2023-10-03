@@ -53,7 +53,7 @@ const services = [
     icon: web,
   },
   {
-    title: "Student Athelete",
+    title: "Student Athlete",
     icon: mobile,
   },
   {
@@ -210,7 +210,7 @@ const experiences = [
     title: "Web App Development Intern",
     company_name: "KOM Advisors",
     icon: komadvisors,
-    iconBg: "#FFFFFF",
+    iconBg: "#333333",
     date: "January 2023 - Current",
     points: [
       "Selected as an intern for a small consulting business focused on financial services technology.",
@@ -239,27 +239,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Rex's good charm will carry him far. Rex knows exactly what needs to be done, he just does it",
+      "Rex's good charm will carry him far. Rex knows exactly what needs to be done, and he just does it.",
     name: "Yvone Adams",
     designation: "Director of DEI",
     company: "St. Stephen's Episcopal School",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: "https://media.licdn.com/dms/image/C4E03AQHtBA3-BapdkA/profile-displayphoto-shrink_800_800/0/1523660250194?e=2147483647&v=beta&t=P9-jNuqI_Dl_6eNECOcezSNCZt5_HM5s2Vlx5IOcLsg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "I've never met someone who could bring energy to work like Rex. He's a great team player and leader.",
+    name: "Stephen Curtis",
+    designation: "General Manager",
+    company: "Cava Westlake",
+    image: "https://media.licdn.com/dms/image/C5603AQESeiRFNt0U9Q/profile-displayphoto-shrink_200_200/0/1607523925755?e=1701907200&v=beta&t=zmViGgVFaM3QfOQvAXI5057FJyPLTpWKy1n_ZF7zAcA"
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Rex's design and coding skills are impressive. His creativity allows him to solve problems in unique ways.",
+    name: "Jason Salinas",
+    designation: "Engineering Manager",
+    company: "Dow",
+    image: "https://media.istockphoto.com/id/1350800599/photo/happy-indian-business-man-leader-manager-standing-in-office-headshot-portrait.webp?b=1&s=170667a&w=0&k=20&c=pz5kwfLy64_AQIwiv9FDDJWWkAzb2Lf1F5fjZW23dBo="
   },
 ];
 
